@@ -6,6 +6,7 @@ metadata:
     name: nginx-ingress-lb
   namespace: kube-system
 spec:
+  hostNetwork: true
   template:
     metadata:
       labels:
