@@ -6,6 +6,7 @@ metadata:
     k8s-app: nginx-ingress-controller
   namespace: kube-system
 spec:
+  hostNetwork: true
   replicas: 1
   template:
     metadata:
